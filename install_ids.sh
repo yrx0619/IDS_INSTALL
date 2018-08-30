@@ -176,7 +176,7 @@ then
 fi
 
 
-sudo yum install wget libpcap-devel libnet-devel pcre-devel gcc-c++ automake autoconf libtool make libyaml-devel zlib-devel file-devel jansson-devel nss-devel  libevent-devel lua-devel GeoIP-devel -y
+sudo yum install wget libpcap-devel libnet-devel pcre-devel gcc-c++ automake autoconf libtool make libyaml-devel zlib-devel file-devel jansson-devel nss-devel  libevent-devel lua-devel GeoIP-devel gperftools-libs -y
 
 cd $main_dir/$suricata_dir/
 
